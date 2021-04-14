@@ -1,0 +1,95 @@
+body{
+    background-image: url(Resources/back_image.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.title{
+    font-style: italic;
+
+}
+.navbar-brand{
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    background-color:transparent;
+    color: white;
+}
+h2{
+    text-align: center;
+    background-color:transparent;
+    color: white;
+}
+hr{
+    background-color: white;
+    width: 10cm;
+}
+
+.navbar{
+    overflow: inherit;
+    padding: 15px;
+    position: relative;
+    background-color: rgb(180, 193, 206);
+    font-weight: bold;
+    
+}
+.dropdown {
+    display: inline-block;
+    color: rgb(106, 106, 255);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(178, 178, 218);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(207, 160, 72, 0.904);
+}
+.box_2{
+    margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 20px 10px 30px;
+  color: #000000;
+  text-align: center;
+  background-color: rgba(207, 160, 72, 0.904);
+
+}
+
+.box_3{
+    position: inherit;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 20px 5px 250px;
+    text-align: left;
+    color: #000000;
+    background-color: rgba(207, 160, 72, 0.904);
+
+}
+
+.img_2{
+    width: 100%;
+    height: 90%;
+}
+
+.dropdown-menu{
+    background-color: rgb(194, 142, 63);
+}
